@@ -30,7 +30,9 @@ public class Main {
             System.out.println(students[i] + " can receive a vaccine.");
             System.out.println(students[i]+" is " + age[i] + " years old!");
         }
+          
         else if(age[i] <= 15 && age[i] >= 0){
+          
         System.out.println(students[i] + " can't receive a vaccine.");
             System.out.println("because " + students[i] + " is only " + age[i] + " years old!");
         
